@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: govinda52/todobackend:latest
+      image: govinda52/todobackend:3680d614409b26758a69af366ce2180f6c65bdc4latest
       ports:
         - containerPort: 80
