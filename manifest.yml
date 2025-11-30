@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: backend
-      image: govinda52/todobackend:latest
+      image: govinda52/todobackend:ea726ca716b1e75eaed23041ee1a96ed1f758e0a
       ports:
         - containerPort: 80
 ---
