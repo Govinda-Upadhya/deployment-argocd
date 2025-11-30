@@ -1,10 +1,21 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: backend
 spec:
   containers:
     - name: nginx
-      image: govinda52/todobackend:3680d614409b26758a69af366ce2180f6c65bdc4latest
+      image: govinda52/todobackend:latest
+      ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+spec:
+  containers:
+    - name: frontend
+      image: govinda52/todofrontend:latest
       ports:
         - containerPort: 80
