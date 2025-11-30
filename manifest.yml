@@ -4,7 +4,7 @@ metadata:
   name: backend
 spec:
   containers:
-    - name: nginx
+    - name: backend
       image: govinda52/todobackend:latest
       ports:
         - containerPort: 80
