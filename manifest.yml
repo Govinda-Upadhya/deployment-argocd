@@ -74,6 +74,6 @@ metadata:
 spec:
   containers:
     - name: frontend
-      image: govinda52/todofrontend:d7f905e9d58b71b14abcacc3aa150ca523b903ff
+      image: govinda52/todofrontend:76b5d71bf509a2ea7ef0d717c39c104a5c49dcb5
       ports:
         - containerPort: 80
