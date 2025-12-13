@@ -57,7 +57,7 @@ metadata:
 spec:
   containers:
     - name: backend
-      image: govinda52/todobackend:754bdca56ddcdaeb04ece277ff798d5cbbcbe15f
+      image: govinda52/todobackend:1c4b7705a1b2d6ada50944fba68eb20e0654e0bf
       ports:
         - containerPort: 3000
       env:
